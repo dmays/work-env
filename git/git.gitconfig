@@ -1,0 +1,20 @@
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+	guiPrompt = false
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	name = David Mays
+	email = david.mays@stablekernel.com
+[alias]
+	now = !git --no-pager log --oneline -3 && git status -s -b
+	wipit = !git add . && git commit --no-verify -m "WIP"
+	unwip = !git reset HEAD~1
+	last = !git --no-pager log -n 1
+	update = !git fetch --prune && git pull
+	remotes = !git remote -v
+
+[core]
+	hooksPath = /Users/david.mays/git-hooks
+[push]
+	autoSetupRemote = true

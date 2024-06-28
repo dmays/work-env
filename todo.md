@@ -1,0 +1,29 @@
+# TODOs
+
+- update install script to create symlinks instead of copy files
+  - backup any current file with .old.n extension
+- update 'git now' alias to avoid using 'log' in new repos result ugly
+- complete brew setup script
+  - tmux
+  - wget
+- additional install script for things that aren't managed by brew
+  - git-filter-repo
+  - nvm
+  - gh
+  - jq
+  - sqlite
+- complete git-hooks script
+- create a script that runs once a day-ish and looks for things that need updating
+  - the ones that don't tell me on their own
+  - examples
+    - Xcode
+    - brew packages
+  - have it notify me somehow so i can choose whether/what to update
+    - should notify regularly until i notice it and respond
+- add other config files
+  - .npmrc
+  - .bash_profile
+  - .zprofile
+  - .profile
+  - ~/scripts
+  - 
