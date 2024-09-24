@@ -1,5 +1,7 @@
 # TODOs
 
+
+- deal with secrets in the env
 - update install script to create symlinks instead of copy files
   - backup any current file with .old.n extension
 - update 'git now' alias to avoid using 'log' in new repos result ugly
