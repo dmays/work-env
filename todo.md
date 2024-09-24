@@ -1,5 +1,6 @@
 # TODOs
 
+- JUST USE GNU STOW
 
 - deal with secrets in the env
 - update install script to create symlinks instead of copy files
